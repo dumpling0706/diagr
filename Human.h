@@ -6,18 +6,18 @@ using namespace std;
 class Human
 {
 protected:
-	string patronymic_, name_, second_name_;//поля класса
+	string patronymic_, name_, second_name_;//РїРѕР»СЏ РєР»Р°СЃСЃР°
 
 public:
-	//конструктор класса 
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР°
 	Human();
 	Human(string patronymic, string name, string second_name);
-	void setName(string name);//задать имя
-	void setPatronymic(string patronymic);// -|||- отчество 
-	void setSName(string sec_name);//-|||- фамилию
-	string fullName();//возвращает полное имя
+	void setName(string name);//Р·Р°РґР°С‚СЊ РёРјСЏ
+	void setPatronymic(string patronymic);// -|||- РѕС‚С‡РµСЃС‚РІРѕ 
+	void setSName(string sec_name);//-|||- С„Р°РјРёР»РёСЋ 
+	string fullName();//РІРѕР·РІСЂР°С‰Р°РµС‚РїРѕР»РЅРѕРµ РёРјСЏ
 
-	~Human();//деструктор
+	~Human();//РґРµСЃС‚СЂСѓРєС‚РѕСЂ 
 
 		
 
