@@ -12,12 +12,12 @@ class Detective :
 public:
 	Detective();
 	Detective(string patronymic, string name, string second_name, int num_b);
-	void setNumBadge(int num);
-	int num_badge();
-	string fullName();
-	evidence find(evidence newev);
-	Deal openDeal();
-	void closeDeal(Deal &deal);
+	void setNumBadge(int num);//задать номер жетона
+	int num_badge();//вернуть номер жетона
+	string fullName();//вернуть имя и номер жетона
+	evidence find(evidence newev);//метод меняющий состояние улики на найдено
+	Deal openDeal();//метод, открывающий дело
+	void closeDeal(Deal &deal);//метод, закрывающий уже открытое дело
 	~Detective();
 };
 

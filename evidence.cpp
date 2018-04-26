@@ -10,12 +10,12 @@ evidence::evidence()
 
 evidence::evidence(bool ex, string r)
 {
-	setEvid(ex);
+	setExistence(ex);
 	setRating(r);
 }
 
 
-void evidence::setEvid(bool e)
+void evidence::setExistence(bool e)
 {
 	existence_ = e;
 }

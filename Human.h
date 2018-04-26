@@ -12,10 +12,10 @@ public:
 	//конструктор класса 
 	Human();
 	Human(string patronymic, string name, string second_name);
-	void setName(string name);
-	void setPatronymic(string patronymic);
-	void setSName(string sec_name);
-	string fullName();
+	void setName(string name);//задать имя
+	void setPatronymic(string patronymic);// -|||- отчество 
+	void setSName(string sec_name);//-|||- фамилию
+	string fullName();//возвращает полное имя
 
 	~Human();//деструктор
 

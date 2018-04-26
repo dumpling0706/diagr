@@ -13,7 +13,7 @@ int main(){
 	Deal as = d.openDeal();
 	Offender o("Pavlovich", "Pasha", "Shishmarov", "Shishmar");
 	
-	cout << "input count of evidence";//lysyy loh
+	cout << "input count of evidence";
 	auto u = 0;
 	cin >> u;
 	vector<evidence> ev;
