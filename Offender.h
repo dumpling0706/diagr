@@ -7,10 +7,10 @@ class Offender :
 	string nickname_;
 public:
 	Offender(string patronymic, string name, string second_name, string nick);
-	string nickname();//возвращает прозвище
-	void setNickname(string nick);//задает прозвище 
-	evidence mistakes();//создает улику
-	string fullName();//возвращает полное имя и прозвище преступника
-	~Offender();//деструктор
+	string nickname();//РІРѕР·РІСЂР°С‰Р°РµС‚ РїСЂРѕР·РІРёС‰Рµ 
+	void setNickname(string nick);//Р·Р°РґР°РµС‚ РїСЂРѕР·РІРёС‰Рµ
+	evidence mistakes();//СЃРѕР·РґР°РµС‚ СѓР»РёРєСѓ
+	string fullName();//РІРѕР·РІСЂР°С‰Р°РµС‚ РїРѕР»РЅРѕРµ РёРјСЏ Рё РїСЂРѕР·РІРёС‰Рµ РїСЂРµСЃС‚СѓРїРЅРёРєР°
+	~Offender();//РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 };
 
