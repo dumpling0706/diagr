@@ -9,14 +9,14 @@ class Deal
 	vector<evidence> evidences_;
 	string name_;
 	bool caseclose_;
-	void setCaseclose(bool c);//задает закрыто дело или нет 
+	void setCaseclose(bool c);//РїРµСЂРµРґР°РµС‚ Р·Р°РєСЂС‹С‚РѕРµ РґРµР»Рѕ РёР»Рё РЅРµС‚ 
 
 public:
 	Deal();
 	Deal(string name, bool caseclose);
-	void add_evidence(evidence e);//добавляет улики в список
-	vector<evidence> evidences();//возвращает список улик
-	bool caseclose();//возвращает состояние дела;
+	void add_evidence(evidence e);//РґРѕР±Р°РІР»СЏРµС‚ СѓР»РёРєРё РІ СЃРїРёСЃРѕРє 
+	vector<evidence> evidences();//РІРѕР·РІСЂР°С‰Р°РµС‚ СЃРїРёСЃРѕРє СѓР»РёРє 
+	bool caseclose();//РІРѕР·РІСЂР°С‰Р°РµС‚ СЃРѕСЃС‚РѕСЏРЅРёРµ РґРµР»Р°
 
 	~Deal();
 };
