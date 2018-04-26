@@ -12,12 +12,12 @@ class Detective :
 public:
 	Detective();
 	Detective(string patronymic, string name, string second_name, int num_b);
-	void setNumBadge(int num);//задать номер жетона
-	int num_badge();//вернуть номер жетона
-	string fullName();//вернуть имя и номер жетона
-	evidence find(evidence newev);//метод меняющий состояние улики на найдено
-	Deal openDeal();//метод, открывающий дело
-	void closeDeal(Deal &deal);//метод, закрывающий уже открытое дело
+	void setNumBadge(int num);//Р·Р°РґР°РЅРёРµ РЅРѕРјРµСЂР° Р¶РµС‚РѕРЅР°
+	int num_badge();//РІРѕР·РІСЂР°С‰Р°РµС‚ РЅРѕРјРµСЂ Р¶РµС‚РѕРЅР°
+	string fullName();//РІРѕР·РІСЂР°С‰Р°РµС‚ РЅРѕРјРµСЂ Р¶РµС‚РѕРЅР° Рё РїРѕР»РЅРѕРµ РёРјСЏ
+	evidence find(evidence newev);//РјРµС‚РѕРґ РјРµРЅСЏСЋС‰РёР№ СЃРѕСЃС‚РѕСЏРЅРёРµ СѓР»РёРєРё РЅР° РЅР°Р№РґРµРЅРѕ 
+	Deal openDeal();//РјРµС‚РѕРґ,РѕС‚РєСЂС‹РІР°СЋС‰РёР№ РґРµР»Рѕ 
+	void closeDeal(Deal &deal);//РјРµС‚РѕРґ,Р·Р°РєСЂС‹РІР°СЋС‰РёР№ СѓР¶Рµ РѕС‚РєСЂС‹С‚РѕРµ РґРµР»Рѕ 
 	~Detective();
 };
 
