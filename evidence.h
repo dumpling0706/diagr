@@ -10,10 +10,10 @@ private:
 public:
 	evidence();
 	evidence(bool ex , string r);
-	void setExistence(bool e);//меняет значение наличия улики
-	bool existence();//возвращает наличие улики
-	void setRating(string r );//задает прямая или косвенная улика
-	string rating();//возвращает улику
+	void setExistence(bool e);//РјРµРЅСЏРµС‚ РЅР°Р»РёС‡РёРµ СѓР»РёРєРё
+	bool existence();//РІРѕР·РІСЂР°С‰Р°РµС‚ РЅР°Р»РёС‡РёРµ СѓР»РёРєРё
+	void setRating(string r );//Р·Р°РґР°РµС‚ РїСЂСЏРјР°СЏ РёР»Рё РєРѕСЃРІРµРЅРЅР°СЏ СѓР»РёРєР°
+	string rating();//РІРѕР·РІСЂР°С‰Р°РµС‚ СѓР»РёРєСѓ 
 	~evidence();
 };
 
