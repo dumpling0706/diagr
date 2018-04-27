@@ -12,11 +12,7 @@ Deal::Deal(string name, bool caseclose)
 	setCaseclose(caseclose);
 }
 
-//Deal::Deal(Detective det, bool caseclose)
-//{
-//	det = det_;
-//	setCaseclose(caseclose);
-//}
+
 
 void Deal::add_evidence(evidence e)
 {
